@@ -8,9 +8,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.qa.util.TestUtil;
+import com.sun.javafx.PlatformUtil;
 
 public class TestBase {
 
@@ -21,8 +21,8 @@ public class TestBase {
 		prop = new Properties();
 		try {
 			FileInputStream fis = new FileInputStream(
-					"C:\\Users\\acer\\eclipse-workspace\\Mrudu\\FlightOrHotelBooking\\"
-							+ "src\\main\\java\\com\\qa\\config\\config.properties");
+					"C:\\Users\\acer\\git\\code\\FlightOrHotelBooking\\"
+					+ "src\\main\\java\\com\\qa\\config\\config.properties");
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -34,17 +34,17 @@ public class TestBase {
 	}
 
 	public void initialization() {
-		String driverPath = prop.getProperty("driver");
-		if (driverPath.equals("Mac")) {
+		
+		if (PlatformUtil.isMac()) {
 			System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver");
 			driver = new ChromeDriver();
 		}
-		if (driverPath.equals("Windows")) {
-			System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver.exe");
+		if (PlatformUtil.isWindows()) {
+			System.setProperty("webdriver.chrome.driver","./DriverFiles/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
-		if (driverPath.equals("Linux")) {
-			System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver_linu");
+		if (PlatformUtil.isLinux()) {
+			System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver_linux");
 			driver = new ChromeDriver();
 		}
 
