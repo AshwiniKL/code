@@ -43,18 +43,17 @@ public class SignInTest {
 
 	private void setDriverPath() {
 		if (PlatformUtil.isMac()) {
-			System.setProperty("webdriver.chrome.driver", "chromedriver");
-			driver = new ChromeDriver();
-		}
-		if (PlatformUtil.isWindows()) {
-			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\acer\\git\\code\\FlightOrHotelBooking\\DriverFiles\\chromedriver.exe");
-			driver = new ChromeDriver();
-		}
-		if (PlatformUtil.isLinux()) {
-			System.setProperty("webdriver.chrome.driver", "chromedriver_linux");
-			driver = new ChromeDriver();
-		}
+            System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver");
+            driver = new ChromeDriver();
+        }
+        if (PlatformUtil.isWindows()) {
+            System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver.exe");
+            driver = new ChromeDriver();
+        }
+        if (PlatformUtil.isLinux()) {
+            System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver_linux");
+            driver = new ChromeDriver();
+        }
 	}
 
 }
