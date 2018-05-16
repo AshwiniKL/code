@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="190927" started-at="2018-05-16T04:56:07Z" finished-at="2018-05-16T04:59:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="190927" started-at="2018-05-16T04:56:07Z" finished-at="2018-05-16T04:59:17Z">
+      <class name="com.qa.tests.FlightBookingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="19746" started-at="2018-05-16T04:56:07Z" finished-at="2018-05-16T04:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:1, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="verifyTitleTest" duration-ms="32" started-at="2018-05-16T04:56:26Z" finished-at="2018-05-16T04:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="700" started-at="2018-05-16T04:56:26Z" finished-at="2018-05-16T04:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="24904" started-at="2018-05-16T04:57:02Z" finished-at="2018-05-16T04:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoTest()[pri:2, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="verifyLogoTest" duration-ms="152" started-at="2018-05-16T04:57:27Z" finished-at="2018-05-16T04:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="927" started-at="2018-05-16T04:57:27Z" finished-at="2018-05-16T04:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="21146" started-at="2018-05-16T04:58:04Z" finished-at="2018-05-16T04:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourneyTest()[pri:3, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="testThatResultsAppearForAOneWayJourneyTest" duration-ms="5998" started-at="2018-05-16T04:58:25Z" finished-at="2018-05-16T04:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatResultsAppearForAOneWayJourneyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="727" started-at="2018-05-16T04:58:31Z" finished-at="2018-05-16T04:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.FlightBookingTest -->
+      <class name="com.qa.tests.HotelBookingTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="setUp" is-config="true" duration-ms="16555" started-at="2018-05-16T04:56:27Z" finished-at="2018-05-16T04:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:1, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="verifyTitleTest" duration-ms="36" started-at="2018-05-16T04:56:44Z" finished-at="2018-05-16T04:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="876" started-at="2018-05-16T04:56:44Z" finished-at="2018-05-16T04:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="setUp" is-config="true" duration-ms="15099" started-at="2018-05-16T04:57:28Z" finished-at="2018-05-16T04:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoTest()[pri:2, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="verifyLogoTest" duration-ms="139" started-at="2018-05-16T04:57:43Z" finished-at="2018-05-16T04:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="700" started-at="2018-05-16T04:57:43Z" finished-at="2018-05-16T04:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="setUp" is-config="true" duration-ms="11983" started-at="2018-05-16T04:58:32Z" finished-at="2018-05-16T04:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotelsTest()[pri:3, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="shouldBeAbleToSearchForHotelsTest" duration-ms="10990" started-at="2018-05-16T04:58:44Z" finished-at="2018-05-16T04:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToSearchForHotelsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="742" started-at="2018-05-16T04:58:55Z" finished-at="2018-05-16T04:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.HotelBookingTest -->
+      <class name="com.qa.tests.SignInTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="16821" started-at="2018-05-16T04:56:45Z" finished-at="2018-05-16T04:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:1, instance:com.qa.tests.SignInTest@6d4b1c02]" name="verifyTitleTest" duration-ms="40" started-at="2018-05-16T04:57:01Z" finished-at="2018-05-16T04:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="706" started-at="2018-05-16T04:57:01Z" finished-at="2018-05-16T04:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="19395" started-at="2018-05-16T04:57:44Z" finished-at="2018-05-16T04:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoTest()[pri:2, instance:com.qa.tests.SignInTest@6d4b1c02]" name="verifyLogoTest" duration-ms="120" started-at="2018-05-16T04:58:03Z" finished-at="2018-05-16T04:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="709" started-at="2018-05-16T04:58:04Z" finished-at="2018-05-16T04:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="17883" started-at="2018-05-16T04:58:56Z" finished-at="2018-05-16T04:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissingTest()[pri:3, instance:com.qa.tests.SignInTest@6d4b1c02]" name="shouldThrowAnErrorIfSignInDetailsAreMissingTest" duration-ms="3000" started-at="2018-05-16T04:59:14Z" finished-at="2018-05-16T04:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissingTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="734" started-at="2018-05-16T04:59:17Z" finished-at="2018-05-16T04:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.SignInTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

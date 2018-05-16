@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.extentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.tests.HotelBookingTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyTitleTest"/>
+          <include name="verifyLogoTest"/>
+          <include name="shouldBeAbleToSearchForHotelsTest"/>
+        </methods>
+      </class> <!-- com.qa.tests.HotelBookingTest -->
+      <class name="com.qa.tests.FlightBookingTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyTitleTest"/>
+          <include name="verifyLogoTest"/>
+          <include name="testThatResultsAppearForAOneWayJourneyTest"/>
+        </methods>
+      </class> <!-- com.qa.tests.FlightBookingTest -->
+      <class name="com.qa.tests.SignInTest">
+        <methods>
+          <include name="shouldThrowAnErrorIfSignInDetailsAreMissingTest"/>
+          <include name="tearDown"/>
+          <include name="verifyTitleTest"/>
+          <include name="setUp"/>
+          <include name="verifyLogoTest"/>
+        </methods>
+      </class> <!-- com.qa.tests.SignInTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
