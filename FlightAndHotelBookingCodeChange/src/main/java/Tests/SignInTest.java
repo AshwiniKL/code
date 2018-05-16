@@ -23,9 +23,10 @@ public class SignInTest {
 
 		driver.findElement(By.linkText("Your trips")).click();
 		driver.findElement(By.id("SignIn")).click();
-		
+
 		driver.switchTo().frame("modal_window");
-		new WebDriverWait(driver,50).until(ExpectedConditions.elementToBeClickable(driver.findElement(By.id("signInButton"))));
+		new WebDriverWait(driver, 50)
+				.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.id("signInButton"))));
 		driver.findElement(By.id("signInButton")).click();
 
 		String errors1 = driver.findElement(By.id("errors1")).getText();
@@ -43,17 +44,17 @@ public class SignInTest {
 
 	private void setDriverPath() {
 		if (PlatformUtil.isMac()) {
-            System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver");
-            driver = new ChromeDriver();
-        }
-        if (PlatformUtil.isWindows()) {
-            System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver.exe");
-            driver = new ChromeDriver();
-        }
-        if (PlatformUtil.isLinux()) {
-            System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver_linux");
-            driver = new ChromeDriver();
-        }
+			System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver");
+			driver = new ChromeDriver();
+		}
+		if (PlatformUtil.isWindows()) {
+			System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver.exe");
+			driver = new ChromeDriver();
+		}
+		if (PlatformUtil.isLinux()) {
+			System.setProperty("webdriver.chrome.driver", "./DriverFiles/chromedriver_linux");
+			driver = new ChromeDriver();
+		}
 	}
 
 }
