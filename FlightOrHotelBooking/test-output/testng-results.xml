@@ -1,652 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="9" failed="0" ignored="0" total="9" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14727" started-at="2018-05-16T11:50:11Z" finished-at="2018-05-16T11:50:26Z">
+  <suite name="Suite" duration-ms="253545" started-at="2018-05-17T02:19:51Z" finished-at="2018-05-17T02:24:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14727" started-at="2018-05-16T11:50:11Z" finished-at="2018-05-16T11:50:26Z">
+    <test name="Test" duration-ms="253545" started-at="2018-05-17T02:19:51Z" finished-at="2018-05-17T02:24:04Z">
       <class name="com.qa.tests.HotelBookingTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.tests.HotelBookingTest@5622fdf]" name="setUp" is-config="true" duration-ms="4470" started-at="2018-05-16T11:50:16Z" finished-at="2018-05-16T11:50:21Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.HotelBookingTest.setUp(HotelBookingTest.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="setUp" is-config="true" duration-ms="20943" started-at="2018-05-17T02:20:18Z" finished-at="2018-05-17T02:20:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyTitleTest()[pri:1, instance:com.qa.tests.HotelBookingTest@5622fdf]" name="verifyTitleTest" duration-ms="0" started-at="2018-05-16T11:50:21Z" finished-at="2018-05-16T11:50:21Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.HotelBookingTest.setUp(HotelBookingTest.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:1, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="verifyTitleTest" duration-ms="40" started-at="2018-05-17T02:20:39Z" finished-at="2018-05-17T02:20:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.tests.HotelBookingTest@5622fdf]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:21Z" finished-at="2018-05-16T11:50:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="716" started-at="2018-05-17T02:20:39Z" finished-at="2018-05-17T02:20:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.tests.HotelBookingTest@5622fdf]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="setUp" is-config="true" duration-ms="21232" started-at="2018-05-17T02:21:22Z" finished-at="2018-05-17T02:21:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.tests.HotelBookingTest@5622fdf]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyLogoTest()[pri:2, instance:com.qa.tests.HotelBookingTest@5622fdf]" name="verifyLogoTest" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.HotelBookingTest.setUp(HotelBookingTest.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="verifyLogoTest()[pri:2, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="verifyLogoTest" duration-ms="160" started-at="2018-05-17T02:21:43Z" finished-at="2018-05-17T02:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoTest -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.tests.HotelBookingTest@5622fdf]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="986" started-at="2018-05-17T02:21:44Z" finished-at="2018-05-17T02:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="setUp" is-config="true" duration-ms="21141" started-at="2018-05-17T02:22:58Z" finished-at="2018-05-17T02:23:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="shouldBeAbleToSearchForHotelsTest()[pri:3, instance:com.qa.tests.HotelBookingTest@5622fdf]" name="shouldBeAbleToSearchForHotelsTest" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.HotelBookingTest.setUp(HotelBookingTest.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotelsTest()[pri:3, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="shouldBeAbleToSearchForHotelsTest" duration-ms="13715" started-at="2018-05-17T02:23:20Z" finished-at="2018-05-17T02:23:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToSearchForHotelsTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.tests.HotelBookingTest@5622fdf]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.HotelBookingTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="791" started-at="2018-05-17T02:23:33Z" finished-at="2018-05-17T02:23:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.tests.HotelBookingTest -->
       <class name="com.qa.tests.FlightBookingTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.tests.FlightBookingTest@6093dd95]" name="setUp" is-config="true" duration-ms="5311" started-at="2018-05-16T11:50:11Z" finished-at="2018-05-16T11:50:16Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.FlightBookingTest.setUp(FlightBookingTest.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="26524" started-at="2018-05-17T02:19:51Z" finished-at="2018-05-17T02:20:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.tests.FlightBookingTest@6093dd95]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:16Z" finished-at="2018-05-16T11:50:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyTitleTest()[pri:1, instance:com.qa.tests.FlightBookingTest@6093dd95]" name="verifyTitleTest" duration-ms="0" started-at="2018-05-16T11:50:16Z" finished-at="2018-05-16T11:50:16Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.FlightBookingTest.setUp(FlightBookingTest.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:1, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="verifyTitleTest" duration-ms="68" started-at="2018-05-17T02:20:17Z" finished-at="2018-05-17T02:20:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleTest -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.tests.FlightBookingTest@6093dd95]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:25Z" finished-at="2018-05-16T11:50:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyLogoTest()[pri:2, instance:com.qa.tests.FlightBookingTest@6093dd95]" name="verifyLogoTest" duration-ms="0" started-at="2018-05-16T11:50:25Z" finished-at="2018-05-16T11:50:25Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.FlightBookingTest.setUp(FlightBookingTest.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogoTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.tests.FlightBookingTest@6093dd95]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:25Z" finished-at="2018-05-16T11:50:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="879" started-at="2018-05-17T02:20:17Z" finished-at="2018-05-17T02:20:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.tests.FlightBookingTest@6093dd95]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="20783" started-at="2018-05-17T02:21:01Z" finished-at="2018-05-17T02:21:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="testThatResultsAppearForAOneWayJourneyTest()[pri:3, instance:com.qa.tests.FlightBookingTest@6093dd95]" name="testThatResultsAppearForAOneWayJourneyTest" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.FlightBookingTest.setUp(FlightBookingTest.java:25)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="verifyLogoTest()[pri:2, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="verifyLogoTest" duration-ms="100" started-at="2018-05-17T02:21:21Z" finished-at="2018-05-17T02:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="707" started-at="2018-05-17T02:21:21Z" finished-at="2018-05-17T02:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="35447" started-at="2018-05-17T02:22:16Z" finished-at="2018-05-17T02:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourneyTest()[pri:3, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="testThatResultsAppearForAOneWayJourneyTest" duration-ms="6482" started-at="2018-05-17T02:22:51Z" finished-at="2018-05-17T02:22:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testThatResultsAppearForAOneWayJourneyTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.tests.FlightBookingTest@6093dd95]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FlightBookingTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="771" started-at="2018-05-17T02:22:58Z" finished-at="2018-05-17T02:22:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.tests.FlightBookingTest -->
       <class name="com.qa.tests.SignInTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@4883b407]" name="setUp" is-config="true" duration-ms="4760" started-at="2018-05-16T11:50:21Z" finished-at="2018-05-16T11:50:25Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.SignInTest.setUp(SignInTest.java:23)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="19932" started-at="2018-05-17T02:20:40Z" finished-at="2018-05-17T02:21:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyTitleTest()[pri:1, instance:com.qa.tests.SignInTest@4883b407]" name="verifyTitleTest" duration-ms="0" started-at="2018-05-16T11:50:25Z" finished-at="2018-05-16T11:50:25Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.SignInTest.setUp(SignInTest.java:23)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:1, instance:com.qa.tests.SignInTest@6d4b1c02]" name="verifyTitleTest" duration-ms="20" started-at="2018-05-17T02:21:00Z" finished-at="2018-05-17T02:21:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.tests.SignInTest@4883b407]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:25Z" finished-at="2018-05-16T11:50:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="718" started-at="2018-05-17T02:21:00Z" finished-at="2018-05-17T02:21:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyLogoTest()[pri:2, instance:com.qa.tests.SignInTest@4883b407]" name="verifyLogoTest" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.SignInTest.setUp(SignInTest.java:23)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="30325" started-at="2018-05-17T02:21:45Z" finished-at="2018-05-17T02:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoTest()[pri:2, instance:com.qa.tests.SignInTest@6d4b1c02]" name="verifyLogoTest" duration-ms="108" started-at="2018-05-17T02:22:15Z" finished-at="2018-05-17T02:22:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoTest -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@4883b407]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.tests.SignInTest@4883b407]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="789" started-at="2018-05-17T02:22:15Z" finished-at="2018-05-17T02:22:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="shouldThrowAnErrorIfSignInDetailsAreMissingTest()[pri:3, instance:com.qa.tests.SignInTest@4883b407]" name="shouldThrowAnErrorIfSignInDetailsAreMissingTest" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[null value in entry: url=null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:70)
-at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:123)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at com.qa.base.TestBase.initialization(TestBase.java:57)
-at com.qa.tests.SignInTest.setUp(SignInTest.java:23)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="setUp" is-config="true" duration-ms="24614" started-at="2018-05-17T02:23:34Z" finished-at="2018-05-17T02:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissingTest()[pri:3, instance:com.qa.tests.SignInTest@6d4b1c02]" name="shouldThrowAnErrorIfSignInDetailsAreMissingTest" duration-ms="4576" started-at="2018-05-17T02:23:59Z" finished-at="2018-05-17T02:24:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissingTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.tests.SignInTest@4883b407]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.SignInTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="880" started-at="2018-05-17T02:24:03Z" finished-at="2018-05-17T02:24:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.tests.SignInTest@4883b407]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-16T11:50:26Z" finished-at="2018-05-16T11:50:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
       </class> <!-- com.qa.tests.SignInTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

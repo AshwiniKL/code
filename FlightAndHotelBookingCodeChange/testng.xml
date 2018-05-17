@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="Tests.SignInTest"/>
-      <class name="Tests.FlightBookingTest"/>
+<!--       <class name="Tests.SignInTest"/> -->
+<!--       <class name="Tests.FlightBookingTest"/> -->
       <class name="Tests.HotelBookingTest"/>
     </classes>
   </test> <!-- Test -->

@@ -25,6 +25,7 @@ public class SignInTest {
 		driver.findElement(By.id("SignIn")).click();
 
 		driver.switchTo().frame("modal_window");
+		waitFor(5000);
 		new WebDriverWait(driver, 50)
 				.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.id("signInButton"))));
 		driver.findElement(By.id("signInButton")).click();
